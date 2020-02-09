@@ -1,0 +1,19 @@
+
+/*media query support from https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries*/
+@media (min-width: 1024px) and (max-height:900px) {
+
+    .box1 {
+        background: yellow;
+        height: 300px;
+    }
+}
+
+
+@media (min-width: 1024px) and (max-height:1366px) {
+
+    .box1 {
+    background-color: blue;
+    height: 300px;
+}
+}
+
